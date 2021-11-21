@@ -13,5 +13,9 @@ namespace ManagementRestaurant.Data.EF
         }
 
         public DbSet<Product> Products { get; set; }
+
+        public DbSet<Ingredient> Ingredients { get; set; }
+
+        public DbSet<Menu> Menus { get; set; }
     }
 }
