@@ -10,9 +10,8 @@ namespace ManagementRestaurant.Data.Entities
 
         public string Name { get; set; }
 
-        public int ProductId { get; set; }
-
         public string Description { get; set; }
 
+        public List<ProductInMenu> ProductInMenus { get; set; }
     }
 }

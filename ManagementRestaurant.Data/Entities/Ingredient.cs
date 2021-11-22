@@ -19,5 +19,7 @@ namespace ManagementRestaurant.Data.Entities
         public DateTime DateImported { get; set; }
 
         public DateTime ExpirationDate { get; set; }
+
+        public List<IngredientInProduct> IngredientInProducts { get; set;}
     }
 }
