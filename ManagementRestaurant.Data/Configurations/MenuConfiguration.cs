@@ -7,7 +7,7 @@ using System.Text;
 
 namespace ManagementRestaurant.Data.Configurations
 {
-    internal class MenuConfiguration : IEntityTypeConfiguration<Menu>
+    public class MenuConfiguration : IEntityTypeConfiguration<Menu>
     {
         public void Configure(EntityTypeBuilder<Menu> builder)
         {

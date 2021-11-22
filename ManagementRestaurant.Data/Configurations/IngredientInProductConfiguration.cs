@@ -7,7 +7,7 @@ using System.Text;
 
 namespace ManagementRestaurant.Data.Configurations
 {
-    internal class IngredientInProductConfiguration : IEntityTypeConfiguration<IngredientInProduct>
+    public class IngredientInProductConfiguration : IEntityTypeConfiguration<IngredientInProduct>
     {
         public void Configure(EntityTypeBuilder<IngredientInProduct> builder)
         {
