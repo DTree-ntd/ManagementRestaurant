@@ -27,5 +27,7 @@ namespace ManagementRestaurant.Data.Entities
         public List<IngredientInProduct> IngredientInProducts { get; set; }
 
         public List<ProductInMenu> ProductInMenus { get; set; }
+
+        public List<ProductInOrder> ProductInOrders { get; set; }
     }
 }

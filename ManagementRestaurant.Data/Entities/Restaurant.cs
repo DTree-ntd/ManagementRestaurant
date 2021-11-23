@@ -16,5 +16,7 @@ namespace ManagementRestaurant.Data.Entities
         public List<MenuInRestaurant> MenuInRestaurants { get; set; }
 
         public Address Address { get; set; }
+
+        public List<Staff> Staffs { get; set; }
     }
 }
