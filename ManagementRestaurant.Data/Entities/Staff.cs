@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using ManagementRestaurant.Data.Enums;
+using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -16,6 +17,8 @@ namespace ManagementRestaurant.Data.Entities
         public string Phone { get; set; }
 
         public DateTime StartTime { get; set; }
+
+        public Status Status { get; set; }
 
         public int RoleId { get; set; }
 
